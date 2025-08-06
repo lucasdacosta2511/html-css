@@ -1,0 +1,17 @@
+        @charset "UTF-8";
+        
+        body{
+            background-color: chartreuse;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        h1{
+            color: darkcyan;
+            background-color: rgb(180, 240, 255);
+        }
+        h2{
+            color: coral;
+        }
+        p{
+            text-align: justify;
+        }

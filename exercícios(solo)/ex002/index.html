@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkcyan;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(216, 216, 216);
+            text-align: center;
+        }
+        main{
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(255, 94, 0);
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        #imagem{
+            text-align: justify;
+            text-indent: 1em;
+            font-size: 0.75em;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias recentes</h1>
+        <h2>Bom Jardim da Serra Alcança -10,4ºC</h2>
+    </header>
+    <main><p>Bom Jardim da Serra, uma das cidades mais frias do país, na Serra de Santa Catarina, registrou a menor temperatura do Brasil desde o início do ano: -10,4°C, segundo a <a href="">Climatempo</a>. O frio extremo congelou paisagens e formou cristais de gelo em um chafariz na cidade.</p>
+        <picture>
+            <source media="(max-width: 740px)" srcset="bom-jardim-da-serra-484x272.png" type="image/png">
+            <source media="(max-width: 1034px)" srcset="bom-jardim-da-serra-690x388.png" type="image/png">
+            <img src="bom-jardim-da-serra.png" alt="">
+        </picture>
+        <dl id="imagem">
+            <dt>Imagem de Carro em Bom Jardim da Serra</dt>
+        </dl>
+    </main>
+    <footer>
+        <p>Feito por Lucas da Costa</p>
+        <p>Referencias</p> 
+        <p><a href="https://g1.globo.com/sc/santa-catarina/noticia/2025/07/02/com-104c-bom-jardim-da-serra-menor-temperatura-do-ano-no-brasil.ghtml" target="_blank" rel="external">G1</a></p>
+    </footer>
+</body>
+</html>
